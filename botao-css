@@ -1,0 +1,24 @@
+div {
+   text-align: center;
+   margin-top: 100px;
+   width: 100px;
+   right: 100px;
+   background-color: rgb(34, 117, 226);
+   margin-left: 500px;
+   padding: 10px;
+    border: 1px solid black;
+    border-width: 1px;
+    border-radius: 10px;
+    display: block;
+}
+
+div:hover {
+    background-image: linear-gradient(to bottom, rgb(60, 0, 128), rgb(124, 115, 115));
+    transition: 2s;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
